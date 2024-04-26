@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: #1c6833;
+            font: normal 24px sans-serif;
+        }
+        p b:hover{
+            color: blueviolet;
+            cursor: pointer;
+        }
+        div{
+            text-decoration: underline;
+            color: aquamarine;
+        }
+        div:hover{
+            color: red;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>aprendendo a usa o <b>DOM</b> em JS</p>
+    <div class="div_div">Clique aqui</div>
+
+    <Script>
+        var p1 = document.getElementsByTagName('p')[0]
+        document.write("está escrito no primeiro paragrafo assim: " + p1.innerText )
+        var d = document.querySelector("div.div_div").innerHTML = " não clique aqui"
+    </Script>
+</body>
+</html>
