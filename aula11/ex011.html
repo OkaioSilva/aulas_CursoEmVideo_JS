@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Braileiro X Estrangeiro</title>
+    <style>
+        body{
+            background-color: grey;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+        h1, p, #res{
+            text-align: center;
+        }
+        label{
+            display: inline-block;
+            box-sizing: border-box;
+            padding: 0;
+            margin-left: 30em;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Nacionalidade</h1>
+    <p>Brasileiro ou estrangeiro ?</p>
+    <label>
+        Você é de qual pais:
+        <input type="text" id="txt">
+        <input type="button" value="enviar" onclick="pais()">
+    </label>
+    <div id="res"></div>
+    
+    <script>
+        function pais() {
+            var txt = document.querySelector('input#txt')
+            var r = txt.value
+            if (r != 'Brasil' && r!= 'brasil') {
+                var res = document.querySelector('div#res').innerHTML = `Seu país é ${r}, você é estrangeiro!`
+            } else {
+                var res = document.querySelector('div#res').innerHTML = `Seu país é ${r}, você é brasileiro!`
+            }
+        }
+    </script>
+</body>
+
+</html>
