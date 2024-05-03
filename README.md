@@ -1,4 +1,4 @@
-#AULAS DO CURSO EM VÍDEO - Gustavo Guanabara
+# AULAS DO CURSO EM VÍDEO - Gustavo Guanabara
 
 A linguagem usada foi: 
 * JavaScript
