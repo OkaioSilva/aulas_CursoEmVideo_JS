@@ -6,3 +6,5 @@ A linguagem usada foi:
 todas as pastas têm aulas assistidas e Desafios propostos nas aulas.
 
 Todos desafios resolvidos do meu jeito e alguns com ajuda das aulas de resolução!
+
+[Curso em video](https://www.cursoemvideo.com/curso/javascript/)
